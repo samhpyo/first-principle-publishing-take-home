@@ -1,0 +1,83 @@
+  /* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 100; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    position: relative;
+  background-color: #fefefe;
+  margin: 5% auto; /* 15% from the top and centered */
+  padding: 10px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Options Container */
+.options-container {
+  display: flex; /* Use flexbox for layout */
+  flex-wrap: wrap; /* Allow items to wrap to next row */
+  gap: 20px; /* Adjust spacing between columns */
+  margin-top: -2rem;
+}
+
+/* Option Group */
+.option-group {
+  flex: auto; /* Each group takes up equal space */
+  min-width: 200px; /* Set a minimum width for each group */
+}
+
+.option-group h3 {
+  margin-bottom: 5px;
+}
+
+.option-group > label {
+  display: block;
+  font-size: 0.7rem; /* Adjust the font size as needed */
+    
+}
+
+.submit-button {
+    position: absolute; /* Position absolutely */
+    bottom: 1rem; /* Distance from the bottom */
+    right: 1rem; /* Distance from the right */
+  }
+
+.settings-button {
+    position: absolute;
+    top: 8rem;
+    right: 1rem;
+}
+
+.reset-button {
+    position: absolute;
+    bottom: 1rem;
+    right: 8rem;
+}
+
+input[type="text"], input[type="search"], textarea {
+  text-transform: uppercase;
+}
