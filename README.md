@@ -1,11 +1,11 @@
 # First Principles Publishing Take Home
 
 - This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+- If it is the first time running the code after clone, make sure to `npm install` to install all the necessary dependencies.
 - Run the app in development mode by using the `npm run start` command line.
     - You will need to add your own API key as it has been hidden by dotenv.
         - Free API Key can be obtained at https://www.alphavantage.co/support/#api-key
         - API key will need to be implemented in `balanceSheetService.js` and `incomeStatementService.js`. Replace `process.env.API_KEY` in `const variable API_KEY` wwith your own API key.
-    - If it is the first time running the code after clone, make sure to `npm install` to install all the necessary dependencies.
 
 ## Requirements Met
 
